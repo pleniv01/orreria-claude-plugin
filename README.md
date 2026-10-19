@@ -1,8 +1,8 @@
 # Orreria for Claude
 
-Orreria is a participatory, noncommercial place directory of ecology, weather, season, myth, culture and environmental memory. This development candidate connects Claude to its existing place-reading engine as a first way into that directory. Start with a named public locality in the United States or Canada, choose the intended match, then read it and inspect its sources.
+Orreria is a participatory, noncommercial directory of flora, fauna, folklore, food and archetypes, organized around place. This development candidate connects Claude to its existing place-reading engine as a first way into that directory. Start with a named public locality in the United States or Canada, choose the intended match, then read it and inspect its sources.
 
-**Live release candidate; not submitted.** The read-only endpoint is enabled. Every tool has passed fresh production calls through the official MCP SDK and MCP Inspector 2.11.0, including strict schema validation. Public documentation: [Orreria for Claude](https://orreria.com/connector/).
+**Live connector; submitted for directory review. The separate plugin bundle is being prepared for submission.** The read-only endpoint is enabled. Every tool has passed fresh production calls through the official MCP SDK and MCP Inspector 2.11.0, including strict schema validation. Public documentation: [Orreria for Claude](https://orreria.com/connector/).
 
 ## Example prompts
 
@@ -25,7 +25,7 @@ Regional models do not prove local species presence. Weather can be heuristic fa
 
 ## Data and privacy
 
-Read the [connector privacy notice](https://orreria.com/connector/privacy.html). The declared connector receives the public place query, selected temporary IDs and optional section/limit choices. It uses the existing geocoding and weather services; AI text synthesis is separately opt-in on the server. No skills send data to a separate connector or third-party tool.
+Read the [terms of service](https://orreria.com/terms/) and [connector privacy notice](https://orreria.com/connector/privacy.html). The declared connector receives the public place query, selected temporary IDs and optional section/limit choices. It uses the existing geocoding and weather services; AI text synthesis is separately opt-in on the server. No skills send data to a separate connector or third-party tool.
 
 ## Connect and test
 

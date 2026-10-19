@@ -13,5 +13,6 @@
   "icon": ".claude-plugin/icon.png",
   "repository": "https://github.com/pleniv01/orreria-claude-plugin",
   "supportUrl": "https://orreria.com/help-build",
-  "documentationUrl": "https://orreria.com/connector/"
+  "documentationUrl": "https://orreria.com/connector/",
+  "termsOfServiceUrl": "https://orreria.com/terms/"
 }
