@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "orreria": {
+      "type": "http",
+      "url": "https://shape-production.up.railway.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "orreria",
+  "displayName": "Orreria",
+  "version": "0.1.0",
+  "description": "Explore and help improve a noncommercial place directory of ecology, weather, season, myth, culture and environmental memory.",
+  "author": {
+    "name": "Orreria",
+    "url": "https://orreria.com"
+  },
+  "homepage": "https://orreria.com/connector/",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://orreria.com/connector/privacy.html",
+  "icon": ".claude-plugin/icon.png"
+}
