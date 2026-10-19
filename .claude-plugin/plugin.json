@@ -10,5 +10,6 @@
   "homepage": "https://orreria.com/connector/",
   "license": "MIT",
   "privacyPolicyUrl": "https://orreria.com/connector/privacy.html",
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "repository": "https://github.com/pleniv01/orreria-claude-plugin"
 }

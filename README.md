@@ -2,7 +2,7 @@
 
 Orreria is a participatory, noncommercial place directory of ecology, weather, season, myth, culture and environmental memory. This development candidate connects Claude to its existing place-reading engine as a first way into that directory. Start with a named public locality in the United States or Canada, choose the intended match, then read it and inspect its sources.
 
-**Release candidate; not submitted.** The implementation is deployed on Orreria’s existing backend. Production enablement and live verification are tracked in the release report. Public documentation: [Orreria for Claude](https://orreria.com/connector/).
+**Live release candidate; not submitted.** The read-only endpoint is enabled. Every tool has passed fresh production calls through the official MCP SDK and MCP Inspector 2.11.0, including strict schema validation. Public documentation: [Orreria for Claude](https://orreria.com/connector/).
 
 ## Example prompts
 
@@ -27,9 +27,17 @@ Regional models do not prove local species presence. Weather can be heuristic fa
 
 Read the [connector privacy notice](https://orreria.com/connector/privacy.html). The declared connector receives the public place query, selected temporary IDs and optional section/limit choices. It uses the existing geocoding and weather services; AI text synthesis is separately opt-in on the server. No skills send data to a separate connector or third-party tool.
 
-## Local testing
+## Connect and test
 
-See `docs/CLAUDE_PLUGIN_PLAN.md` and `docs/MCP_DEVELOPMENT.md` in the Orreria application repository. Use a temporary copy of this plugin with its `.mcp.json` URL set to `http://localhost:8787/mcp` for local Claude Code testing; do not submit that local URL to the directory.
+Claude web/desktop/mobile: add `https://shape-production.up.railway.app/mcp` as a custom connector and select **No sign in**. No API key or custom headers are needed.
+
+Claude Code, from a checkout of this plugin repository:
+
+```sh
+claude --plugin-dir /absolute/path/to/orreria-claude-plugin
+```
+
+Try the example prompts above. Inspector and SDK verification is recorded in [VERIFICATION.md](VERIFICATION.md); owner-run testing inside Claude and directory submission remain separate steps.
 
 Support: [support@orreria.com](mailto:support@orreria.com). The bundled square icon uses Orreria’s existing owner-supplied logo. Directory acceptance and owner-run Claude testing remain separate from automated verification.
 
